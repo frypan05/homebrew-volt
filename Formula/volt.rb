@@ -1,13 +1,13 @@
 class Volt < Formula
   desc "Terminal Based Binary for API Testing"
   homepage "https://github.com/frypan05/Volt"
-  version "1.1.1"
+  version "1.1.2"
   license "MIT"
 
   on_macos do
     on_intel do
       url "https://github.com/frypan05/Volt/releases/download/v#{version}/volt-x86_64-apple-darwin.tar.gz"
-      sha256 "2da8efd0c5f03946263f81618184fa7d7d98ca3276eb9ba0866ac8c737ca2589"
+      sha256 "e91dc06254c1907ce35b61281fea2ef24e8119306e6be6c74a023da305acd685"
     end
     on_arm do
       url "https://github.com/frypan05/Volt/releases/download/v#{version}/volt-aarch64-apple-darwin.tar.gz"
