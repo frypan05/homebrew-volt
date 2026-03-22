@@ -15,6 +15,17 @@ class Volt < Formula
     end
   end
 
+  on_linux do
+    on_intel do
+      url "https://github.com/frypan05/Volt/releases/download/v#{version}/volt-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "PASTE_LINUX_X86_SHA256_HERE"
+    end
+    on_arm do
+      url "https://github.com/frypan05/Volt/releases/download/v#{version}/volt-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "PASTE_LINUX_ARM_SHA256_HERE"
+    end
+  end
+
   def install
     bin.install "volt"
   end
