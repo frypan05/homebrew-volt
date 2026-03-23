@@ -11,18 +11,18 @@ class Volt < Formula
     end
     on_arm do
       url "https://github.com/frypan05/Volt/releases/download/v#{version}/volt-aarch64-apple-darwin.tar.gz"
-      sha256 "38b491c98521a47c8b6c3a3cb0c76ab2232e0273283a08290d82e0897e086015"
+      sha256 "96fa098c3e3171af140418f5a6032e50d01dc1931096fadb8cff8084825fc949"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/frypan05/Volt/releases/download/v#{version}/volt-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "983a3fc29620a1d921e1825e73232ecb7b1413e7e15f57a68cc3bb3de1cee041"
+      sha256 "3c17899d0b27309d9a4c24abd144e625ad3e023ffa34b92068007d463659b217"
     end
     on_arm do
       url "https://github.com/frypan05/Volt/releases/download/v#{version}/volt-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "6f2f1eaa7985dcac2abb0dc67bf90ec9602cddbadc6ac3272077061b1067cf87"
+      sha256 "760d1ac8a2c182755ca95a32d2536705901f85ff1cfb9162c9b3522d327259c1"
     end
   end
 
