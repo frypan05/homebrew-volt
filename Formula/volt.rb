@@ -18,11 +18,11 @@ class Volt < Formula
   on_linux do
     on_intel do
       url "https://github.com/frypan05/Volt/releases/download/v#{version}/volt-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3c17899d0b27309d9a4c24abd144e625ad3e023ffa34b92068007d463659b217"
+      sha256 "ae0bf4ab7652148a8ea2805da2c588e4ca73a4cec4b3212b790db45c6f2ec01f"
     end
     on_arm do
       url "https://github.com/frypan05/Volt/releases/download/v#{version}/volt-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "760d1ac8a2c182755ca95a32d2536705901f85ff1cfb9162c9b3522d327259c1"
+      sha256 "0e3d3c81969ce7bf6ffd631d7d8792efc5d4b04562226ab69fe1164aec7b81e8"
     end
   end
 
